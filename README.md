@@ -1,5 +1,7 @@
 # PersonaScan 
-![PersonaScan Logo](PersonaScan.png)
+<div style="display: flex; justify-content: center;">
+    <img src="PersonaScan.png" height="400" style="margin-right: 20px;">
+</div>
 PersonaScan is a web-based face recognition attendance system built using Flask, OpenCV, Dlib, and Firebase. It allows users to capture faces, train the recognition model, and mark attendance through a web interface.
 
 ## Features
