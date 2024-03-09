@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Prince Katiyar",
+        "father_name": "xxxx",
+        "local_address": "xxxx",
+        "mobile_no": "7992145768",
+        "email": "xxxx@gmail.com",
+        "birth_date": "xxxx-xx-xx",
+        "section_name": "PSITCHE-BCA-II-A",
+        "university_roll_no": "xxxxxxxx",
+        "library_code": "29661",
+        "registration_date": "xxxx-xx-xx"
+    },
+    {
+        "name": "Vivek singh",
+        "father_name": "xxxx",
+        "local_address": "xxxx",
+        "mobile_no": "8470873204",
+        "email": "xxxx@gmail.com",
+        "birth_date": "xxxx-xx-xx",
+        "section_name": "PSITCHE-BCA-II-D",
+        "university_roll_no": "xxxxxxxx",
+        "library_code": "31064",
+        "registration_date": "xxxx-xx-xx"
+    },
+    {
+        "name": "Yash Pathak",
+        "father_name": "xxxx",
+        "local_address": "xxxx",
+        "mobile_no": "8765158624",
+        "email": "xxxx@gmail.com",
+        "birth_date": "xxxx-xx-xx",
+        "section_name": "PSITCHE-BCA-II-D",
+        "university_roll_no": "xxxxxxxx",
+        "library_code": "30023",
+        "registration_date": "xxxx-xx-xx"
+    },
+    {
+        "name": "Ritik Bajpai",
+        "father_name": "xxxx",
+        "local_address": "xxxx",
+        "mobile_no": "6386305486",
+        "email": "xxxx@gmail.com",
+        "birth_date": "xxxx-xx-xx",
+        "section_name": "PSITCHE-BCA-II-D",
+        "university_roll_no": "xxxxxxxx",
+        "library_code": "29864",
+        "registration_date": "xxxx-xx-xx"
+    },
+    {
+        "name": "Ayush kumar sahay",
+        "father_name": "xxxx",
+        "local_address": "xxxx",
+        "mobile_no": "8957971361",
+        "email": "xxxx@gmail.com",
+        "birth_date": "xxxx-xx-xx",
+        "section_name": "PSITCHE-BCA-II-B",
+        "university_roll_no": "xxxxxxxx",
+        "library_code": "30775",
+        "registration_date": "xxxx-xx-xx"
+    }
+]

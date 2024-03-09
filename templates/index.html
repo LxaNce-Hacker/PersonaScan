@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"PersonaScan" : LxaNce-Hacker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<style>
+    p {
+        position: absolute;
+        bottom: 20px;
+        left: 876px;
+        color: rgb(255, 0, 0);
+    }
+</style>
+<body>
+
+<div class="container mt-5">
+    <h2 class="mb-4"><b>"PersonaScan" : </b>Face Recognition Attendance System</h2>
+    <button class="btn btn-success" onclick="captureFaces()">Capture Faces</button>
+    <button class="btn btn-warning" onclick="trainFaces()">Train Faces</button>
+    <button class="btn btn-primary" onclick="startRecognition()">Start Recognition</button>
+    <div id="output" class="mt-3"></div>
+    <div id="attendance" class="mt-3"></div>
+</div>
+
+<script>
+    function startRecognition() {
+        document.getElementById('output').innerHTML = 'Recognition started...';
+
+        // Use fetch or other methods to call your Flask backend
+        fetch('/recognize_faces')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('output').innerHTML = data.message;
+                displayAttendance(data.attendance);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('output').innerHTML = 'Error during recognition.';
+            });
+    }
+
+    function displayAttendance(attendance) {
+        const attendanceDiv = document.getElementById('attendance');
+        attendanceDiv.innerHTML = '<h4>Attendance Log:</h4>';
+        
+        for (const personId in attendance) {
+            if (attendance.hasOwnProperty(personId)) {
+                const info = attendance[personId];
+                const line = `<p>${info.name} - ${info.timestamp}</p>`;
+                attendanceDiv.innerHTML += line;
+            }
+        }
+    }
+
+
+    function captureFaces() {
+        var personName = prompt('Enter The Person Name :                      [ Ex. Name == ID]');
+        if (personName) {
+            document.getElementById('output').innerHTML = 'Capture faces initiated...';
+
+            // Use fetch or other methods to call your Flask backend
+            fetch(`/capture_faces?name=${personName}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').innerHTML = data.message;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('output').innerHTML = 'Error during face capture.';
+                });
+        }
+    }
+
+    function trainFaces() {
+        document.getElementById('output').innerHTML = 'Training faces initiated...';
+
+        // Use fetch or other methods to call your Flask backend
+        fetch('/train_faces')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('output').innerHTML = data.message;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('output').innerHTML = 'Error during face training.';
+            });
+    }
+</script>
+
+</body>
+<footer>
+    <p>Created By : LxaNce</p>
+</footer>
+</html>
