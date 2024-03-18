@@ -1,9 +1,12 @@
-# PersonaScan 
+# ${\color{red}PersonaScan}\ {\color{blue} :}\ {\color{green}Face\ Recognition\ Attendace\ System}$
 <div style="display: flex; justify-content: center;">
     <img src="PersonaScan.png" alt="Image" width="200" height="150" style="object-fit: cover; border-radius: 90%;">
 </div>
 PersonaScan is a web-based face recognition attendance system built using Flask, OpenCV, Dlib, and Firebase. It allows users to capture faces, train the recognition model, and mark attendance through a web interface.
 
+#
+###### ${{\color{red} Creator}}\ Prince\ Katiyar$
+#
 ## Features
 
 - Capture Faces: Allows users to capture faces using their webcam.
@@ -40,9 +43,9 @@ This project is licensed under the [MIT License](LICENSE).
 - [Dlib](http://dlib.net/)
 - [Flask](https://flask.palletsprojects.com/)
 
-## Collaborators
+## ${{\color{yellow} Collaborators}}$
 
-- [Prince Katiyar](https://lxance.xyz/oo0oo/)
+- [Prince Katiyar](https://lxance.xyz/oo0oo/) ${\ [\ {\color{red} Creator}}\ ]$
 - [Vivek Singh](https://codingvivek.github.io/portfolio/)
 - [Yash Pathak](https://lxance.xyz/oo0oo/)
 - [Ritik Bajpai](https://lxance.xyz/oo0oo/)
