@@ -1,4 +1,4 @@
-# ${\color{red}PersonaScan}\ {\color{blue} :}\ {\color{green}Face\ Recognition\ Attendace\ System}$
+# PersonaScan
 <div style="display: flex; justify-content: center;">
     <img src="PersonaScan.png" alt="Image" width="200" height="150" style="object-fit: cover; border-radius: 90%;">
 </div>
@@ -43,9 +43,9 @@ This project is licensed under the [MIT License](LICENSE).
 - [Dlib](http://dlib.net/)
 - [Flask](https://flask.palletsprojects.com/)
 
-## ${{\color{yellow} Collaborators}}$
+## Collaborators
 
-- [Prince Katiyar](https://lxance.xyz/oo0oo/) ${\ [\ {\color{red} Creator}}\ ]$
+- [Prince Katiyar](https://lxance.xyz/oo0oo/) <span> [ <span>Creator</span> ]</span>
 - [Vivek Singh](https://codingvivek.github.io/portfolio/)
 - [Yash Pathak](https://lxance.xyz/oo0oo/)
 - [Ritik Bajpai](https://lxance.xyz/oo0oo/)
