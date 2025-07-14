@@ -45,11 +45,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Collaborators
 
-- [Prince Katiyar](https://lxance.xyz/oo0oo/) <span> [ <span>Creator</span> ]</span>
-- [Vivek Singh](https://codingvivek.github.io/portfolio/)
-- [Yash Pathak](https://lxance.xyz/oo0oo/)
-- [Ritik Bajpai](https://lxance.xyz/oo0oo/)
-- [Ayush Kumar Sahay](https://lxance.xyz/oo0oo/)
+- [Prince Katiyar](https://www.linkedin.com/in/lxance/) <span> [ <span>Creator</span> ]</span>
+- [Vivek Singh](https://www.linkedin.com/in/vivek-singh-0481621b6/)
+- [Yash Pathak](https://www.linkedin.com/in/yash-pathak-08092420a/)
+- [Ritik Bajpai](https://www.linkedin.com/in/BajpaiRitik/)
+- [Ayush Kumar Sahay](https://www.linkedin.com/in/ayush-sahay-472913240/)
 
 ## Contributing
 
